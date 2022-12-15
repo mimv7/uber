@@ -286,5 +286,44 @@ nav {
         width: 21px;
         height: 20px;
         background: url("../icons/check_blue.svg") center center/cover no-repeat; }
+  .require_descr {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left; }
+  .require .warning .require_title {
+    color: red; }
+  .require .warning .require_list li::before {
+    background: url("../icons/check_red.svg") center center/cover no-repeat; }
+
+.world {
+  position: relative;
+  min-height: 700px;
+  padding: 46px 0 46px 0;
+  background: url("../img/bg/map.jpg") center center/cover no-repeat; }
+  .world__link {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 46px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .world__link a {
+      -webkit-transition: 0.7s all;
+      transition: 0.7s all; }
+      .world__link a:hover {
+        color: #fff; }
+
+.footer {
+  min-height: 310px;
+  padding: 11px 0 20px 0; }
+  .footer__divider {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 7px;
+    background-color: #1eacc7; }
 
 /*# sourceMappingURL=style.css.map */
