@@ -317,7 +317,7 @@ nav {
         color: #fff; }
 
 .footer {
-  min-height: 310px;
+  min-height: 200px;
   padding: 11px 0 20px 0; }
   .footer__divider {
     display: block;
@@ -325,5 +325,54 @@ nav {
     width: 300px;
     height: 7px;
     background-color: #1eacc7; }
+  .footer__wrapper {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .footer__social {
+    width: 320px; }
+  .footer__link {
+    width: 400px; }
+    .footer__link_main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 68px;
+      text-transform: uppercase; }
+      .footer__link_main a {
+        color: #000; }
+    .footer__link_sub {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      font-size: 11px;
+      font-weight: 300;
+      text-transform: uppercase; }
+      .footer__link_sub a {
+        color: #999; }
+    .footer__link_lang {
+      margin-top: 10px;
+      font-size: 11px;
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase; }
+      .footer__link_lang a {
+        color: #1eacc7; }
+  .footer__mobile {
+    width: 320px; }
 
 /*# sourceMappingURL=style.css.map */
